@@ -106,6 +106,7 @@ export default function LandingPage() {
         <div className="nav-links">
           <a href="#how-it-works">How it works</a>
           <a href="#your-tables">Your tables</a>
+          <a href="/wheel">Wheel</a>
           <a className="admin-link" href="/admin"><LockKeyhole size={14} /> Admin console</a>
         </div>
         <button className="button button-dark button-small nav-create" onClick={() => setCreateOpen(true)}>
